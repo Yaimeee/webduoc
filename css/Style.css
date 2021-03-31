@@ -1,7 +1,49 @@
-h1 {
-	color: #f2d0a9;
+body {
+	font-family: sans-serif;
+	background-color: rgb(75, 75, 75);
+}
+div#menu {
+	float: left;
+	width: 20%;
+	height: 700px;
+	background-color: rgb(53, 53, 53);
+	color: white;
+	border-color: black;
+}
+div#nosotros {
+	background-color: cyan;
+	width: 80%;
+	height: 25%;
+	float: right;
+	margin: auto;
+	text-align: center;
+}
+div#perros {
+	background-color: yellow;
+	width: 80%;
+	height: 25%;
+	float: right;
+	margin: auto;
+	text-align: center;
+}
+div#gatos {
+	background-color: orangered;
+	width: 80%;
+	height: 25%;
+	float: right;
+	margin: auto;
+	text-align: center;
+}
+div#contacto {
+	background-color: red;
+	width: 80%;
+	height: 25%;
+	float: right;
+	margin: auto;
+	text-align: center;
 }
 
-html {
-	background-color: rgb(28, 90, 99);
+.p1 {
+	padding-left: 200px;
+	padding-right: 200px;
 }
