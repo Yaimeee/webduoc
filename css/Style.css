@@ -1,49 +1,33 @@
-body {
-	font-family: sans-serif;
-	background-color: rgb(75, 75, 75);
+.Contacto {
+	max-width: 800px;
+	margin: 50px auto;
+	position: relative;
+	box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+	padding: 30px;
 }
-div#menu {
-	float: left;
-	width: 20%;
-	height: 700px;
-	background-color: rgb(53, 53, 53);
-	color: white;
-	border-color: black;
-}
-div#nosotros {
-	background-color: cyan;
-	width: 80%;
-	height: 25%;
-	float: right;
-	margin: auto;
+.Contacto .titulo {
+	text-transform: uppercase;
 	text-align: center;
+	letter-spacing: 3px;
+	font-size: 3em;
+	line-height: 48px;
+	padding-bottom: 20px;
+	color: #dc5032;
+	background: linear-gradient(to right, #f4524d 0%, #1096f3 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
-div#perros {
-	background-color: yellow;
-	width: 80%;
-	height: 25%;
-	float: right;
-	margin: auto;
-	text-align: center;
+.contact-form .form-field {
+	position: relative;
+	margin: 32px 0;
 }
-div#gatos {
-	background-color: orangered;
-	width: 80%;
-	height: 25%;
-	float: right;
-	margin: auto;
-	text-align: center;
-}
-div#contacto {
-	background-color: red;
-	width: 80%;
-	height: 25%;
-	float: right;
-	margin: auto;
-	text-align: center;
-}
-
-.p1 {
-	padding-left: 200px;
-	padding-right: 200px;
+.contact-form .input-text {
+	display: block;
+	width: 200px;
+	height: 36px;
+	border-width: 0 0 1px 0;
+	border-color: #f4524d;
+	font-size: 18px;
+	line-height: 200px;
+	font-weight: 400;
 }
