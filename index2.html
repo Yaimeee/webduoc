@@ -131,32 +131,55 @@
 		></script>
 	</body>
 	<footer>
-		<section class="Contacto">
-			<h1 class="titulo">Contactanos</h1>
-			<div class="container-fluid">
-				<div class="contact-form row">
-					<div class="form-field col-lg-6">
-						<input id="nombre" class="input-text" type="text" name="" />
-						<label for="name" class="label">name</label>
-					</div>
-					<div class="form-field col-lg-6">
-						<input id="email" class="input-text" type="text" name="" />
-						<label for="email" class="label">Correo</label>
-					</div>
-					<div class="form-field col-lg-6">
-						<input id="Telefono" class="input-text" type="text" name="" />
-						<label for="Telefono" class="label">Telefono</label>
-					</div>
-					<div class="form-field col-lg-6">
-						<input id="Mensaje" class="input-text" type="text" name="" />
-						<label for="Mensaje" class="label">Mensaje</label>
-					</div>
-					<div class="form-field col-lg-6">
-						<input
-							type="submit"
-							class="btn btn-primary"
-							value="Enviar"
-							name=""
+		<h1>Formulario Adopta Un Peludo</h1>
+		<form class="mx-4">
+			<fieldset class="border p-2">  
+			<div class="mb-3">
+			  <label for="InputNombre" class="form-label">Nombre Completo</label>
+			  <input type="text" class="form-control" id="InputNombre">
+			</div>
+		 
+			<div class="mb-3">
+				<label for="InputEmail" class="form-label">Email </label>
+				<input type="email" class="form-control" id="InputEmail">
+			</div>
+		 
+			<label for="flexRadioRut" class="form-label">Como desea identificarse:</label>
+			<div class="form-check">
+				<br>
+				<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioRut" checked>
+				<label class="form-check-label" for="flexRadioRut">
+				  Rut
+				</label>
+			</div>
+		 
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioPasaporte" >
+				<label class="form-check-label" for="flexRadioPasaporte">
+					Pasaporte
+				</label>
+			</div>
+		 
+			<div class="mb-3">
+				<label for="InputNumeroTelefono" class="form-label">Numero de Telefono</label>
+				<input type="tel" class="form-control" id="InputNumeroTelefono">
+			</div>
+		 
+			<div class="mb-3">
+				<label for="InputCiudad" class="form-label">Nombre Completo</label>
+				<input type="text" class="form-control" id="InputCiudad">
+			</div>
+			<div class="mb-3">
+				<label for="FormControlParticipacion" class="form-label">Como le gustaria participar</label>
+				<textarea class="form-control" id="FormControlParticipacion" rows="3" maxlength="180"></textarea>
+			</div>
+		 
+			<button type="submit" class="btn btn-primary mb-2">Enviar</button>
+			<br>
+			<button type="reset" class="btn btn-warning">Limpiar</button>
+		   </fieldset>
+		  </form>
+		 
 						/>
 					</div>
 				</div>
